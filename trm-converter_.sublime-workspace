@@ -1,0 +1,527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "trm-converter/main.cc",
+			"settings":
+			{
+				"buffer_size": 4329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trm-converter/data.h",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trm-converter/data.cc",
+			"settings":
+			{
+				"buffer_size": 3000,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/CMake.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 484.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/sources/wxWidgets-2.8.12/samples/statbar/statbar.cpp",
+		"/C/_d/T/Projects_Kublanov/trm-converter/sources/trm-converter/trm-converter/data.cc",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/CMakeLists.txt",
+		"/C/_d/T/MyDocs/УПИ/TeX/June_2003/Биофизика/bio_cur_dim.tex",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/src/CMakeLists.txt",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/rebuild.sh",
+		"/C/Users/AAP/Desktop/cmake-example/my_example_project/CMakeLists.txt",
+		"/C/Users/AAP/Desktop/cmake-example/CMakeLists.txt",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/build.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/clean.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/CMakeLists.txt",
+		"/C/Users/AAP/Desktop/path.txt",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/src/mainwindow.cc",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/src/mainwindow.h",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/src/main.cc",
+		"/C/_d/T/Projects_Novator/m3/m2plus3d/src/afpz2/ckoop-path-provider.h",
+		"/C/Users/AAP/Desktop/cmake-example/my_example_project/test/CMakeLists.txt",
+		"/C/Users/AAP/Desktop/cmake-example/my_example_project/src/CMakeLists.txt",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/cc.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/scripts/build-linux/cc_all.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/run.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/rebuild.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/clean.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/build.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/cc.sh",
+		"/C/_d/T/Projects_Novator/m3/bench-blt-all/CMakeLists.txt",
+		"/C/Users/AAP/Desktop/msvc-config-example.txt",
+		"/C/Users/AAP/Documents/example/CMakeLists.txt",
+		"/C/Users/AAP/Documents/example/msvc-config-example.txt",
+		"/C/Users/AAP/Documents/example/my_example_project/src/CMakeLists.txt",
+		"/C/Users/AAP/Documents/example/my_example_project/test/CMakeLists.txt",
+		"/C/Users/AAP/Documents/example/my_example_project/src/kt/test/kt_unittest.cc",
+		"/C/Users/AAP/Documents/example/my_example_project/CMakeLists.txt",
+		"/D/T/Projects_Novator/marshrut2/my_m2/m2/src/afpz2/CMakeLists.txt",
+		"/C/Users/AAP/Documents/example/my_example_project/test/main.cc",
+		"/C/Users/AAP/Documents/example/my_example_project/src/main.cc",
+		"/C/Users/AAP/Desktop/printed/kinematic-provider_unittest.cc",
+		"/D/T/Projects_Novator/marshrut2/my_m2/m2/src/afpz2/tests/afpz2.cc",
+		"/C/Users/AAP/Documents/example/my_example_project/src/kt/kt.h",
+		"/C/Users/AAP/Documents/example/my_example_project/src/kt/kt.cc",
+		"/D/T/Projects_Novator/marshrut2/my_m2/CMakeLists.txt",
+		"/C/Users/AAP/Desktop/printed/kinematic-options.h",
+		"/C/Users/AAP/Desktop/printed/kinematic-provider.h",
+		"/C/Users/AAP/Desktop/printed/orthodromies-provider-interface.h",
+		"/C/Users/AAP/Desktop/printed/curvatures-provider-interface.h",
+		"/C/Users/AAP/Desktop/printed/params-txt-provider-interface.h",
+		"/C/Users/AAP/Desktop/new  1.txt",
+		"/C/Users/AAP/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/C/Users/AAP/AppData/Roaming/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/forms/mainscrollview.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/forms/mainscrollview.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tile-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tile-producer-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/kinematic-provider.cc",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TGLWidget.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TRenderController.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TRenderController.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TGlobusTiledRegions.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TGlobusTiledRegions.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TRegion.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TRegion.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/globalGlobus.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/b.sh",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-qt-frame.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-qt-frame.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/magorants-task-work.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/magorants-task-work.cc",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/earth-radius-provider.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/earth-radius-provider.cc",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-gl.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-plane.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tmainwindow.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tscaleobserver.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tscaleobserver.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/procs/sk.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/view-parameters.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/view-parameters.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/view-parameters-2d.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/view-parameters-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-gl.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-plane.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/facade/main-view-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/view-parameters-3d.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/saffm_SUSE_source/fpoint.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/common/fpoint.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/common/FPointEx.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/common/global.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/saffm_SUSE_source/global.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/saffm_SUSE_source/FPoint.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/globus-resources-paths.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/globus-resources-paths.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/globus-resources-paths-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/kinematic-options.cc",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/sub-task-work-interface.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/magorants-sub-task-work.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/magorants-sub-task-work.cc",
+		"/D/T/Projects_Novator/marshrut2_modules/tasks-mt/taskexample.cpp",
+		"/C/Users/AAP/Desktop/задачи-для-ивана-2011-11-15/example_2011-11-15_01.h",
+		"/C/Users/AAP/Desktop/задачи-для-ивана-2011-11-15/example_2011-11-15_02.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/project/project.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/bi/bigpicture.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/procs/sk.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/afpz2/converting-geo-coordinates.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/common/global.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/forms/dlgmain.h",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/main.cpp",
+		"/C/Users/AAP/Desktop/example_2011-11-15_02.h",
+		"/C/Users/AAP/Desktop/example_2011-11-15_01.h",
+		"/C/Users/AAP/Desktop/example.h",
+		"/O/sync-docs/txt/samizdat.txt",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/saffm_SUSE_source/HProgram.cpp",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/gme/gme_hprogram.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/main.cpp",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/TGLWidget.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/globus3d/tmainwindow.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/Makefile_create_suse_asm",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/Makefile_create_mcbc_asm",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/src.pro",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/common/fpoint.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/src/common/numeric_types.h",
+		"/D/T/Projects_Novator/m3/m2plus3d/cc-aap.sh",
+		"/D/T/Projects_Novator/marshrut2/my_m2/src/afpz2/thread.cc",
+		"/C/Users/AAP/AppData/Roaming/Tkabber/config.tcl",
+		"/C/Program Files (x86)/Tkabber/Tkabber/examples/xrdb/badlop-dark.xrdb",
+		"/C/Users/AAP/Desktop/AStyle/bin/src/afpz2/calculating-kinematic-trajectory.h",
+		"/C/Users/AAP/Desktop/AStyle/bin/src/afpz2/calc_mag.cc",
+		"/C/Users/AAP/Desktop/AStyle/bin/src/saffm_SUSE_source/HProgram.cpp",
+		"/C/Users/AAP/Desktop/AStyle/bin/options.astylerc"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\sources\\wxWidgets-2.8.12\\src",
+			"C:\\sources\\wxWidgets-2.8.12",
+			"<open folders>",
+			"D:\\T\\Projects_Novator\\marshrut2\\m3\\m2plus3d\\src\\",
+			"D:\\T\\Projects_Novator\\marshrut2\\my_m2\\src",
+			"<open folders>",
+			"D:\\T\\Projects_Novator\\marshrut2\\my_m2\\src\\saffm_SUSE_source",
+			"<open folders>",
+			"D:\\T\\Projects_Novator\\m3\\m2plus3d\\src",
+			"D:\\T\\Projects_Novator\\marshrut2\\my_m2\\src\\afpz2"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"#pragma",
+			"pragma comment",
+			"_xPosAtr",
+			"_vertexIndexArray",
+			"_vertexIndexArraySet",
+			"_vertexIndexArraySphere",
+			"GetVertexIndexSphereVector",
+			"vertTS",
+			"glVertexPointer",
+			"qApp",
+			"_scaleHeight",
+			"UpdateGLWidgetSize",
+			"_GLWidgetHeight",
+			"_scaleHeight",
+			"SetScaleHeight",
+			"findCentrCoord",
+			"winToObj",
+			"toGeoCoor",
+			"findCentrCoord",
+			"toGeoCoor",
+			"findCentrCoord",
+			"rotToNorth",
+			"GoToAim",
+			"rotRandVec",
+			"findCentrCoord",
+			"toGeoCoor",
+			"m_obj_x_centr",
+			"findC",
+			":findC",
+			"_vertexArrayCoastline",
+			"findCentrCoord",
+			"rotToNorth",
+			"updateGL",
+			"rotNorth",
+			"northdir",
+			"rotToNorth",
+			"SetVisualization",
+			"m_x_aim",
+			"GoToAim",
+			"findCentrCoord",
+			"rotToNorth",
+			"name",
+			"NULL",
+			"FRect;",
+			"FPoint;",
+			"typedef TFPoint FPoint;",
+			"FPoint.h",
+			"RECT",
+			"POINT",
+			"max",
+			"min",
+			"fabs",
+			"sqrt",
+			"PI",
+			"findCentrCoo",
+			"scalePlusRot",
+			"findCentrCoo",
+			"findCentrCoord",
+			"m_obj_x_centr",
+			"findCentrCoord",
+			"SetPosition",
+			"rotRandVec",
+			"resourceDir",
+			"qapp",
+			"good",
+			"TPPoint",
+			"resources",
+			"resource",
+			"resources",
+			"fPixelsPerMeter",
+			"findCentrCoord",
+			"_scaleHeight",
+			"SetScaleHeight",
+			"GoToAim",
+			"FPoint",
+			"stdio",
+			"stddef",
+			"stdlib",
+			"LO",
+			"db_number",
+			"double2int",
+			"LO(",
+			"VProgram",
+			"getAverageHeightRay",
+			"linter",
+			"CalcHO",
+			"VProgramCheck",
+			"FrameMRouteParams",
+			"params",
+			"if (0 != iround(delta_k_new))",
+			"aL",
+			"createCurrentTu_2",
+			"k",
+			"n",
+			"nNumberMagorantaBeginTu",
+			"GetVPCreatePossibility",
+			"g_kt",
+			"LoadMago",
+			"floor",
+			"nM",
+			"ddMnt",
+			"ndsX_tu",
+			"createcur",
+			"writemag",
+			"WriteTUtoKinematic",
+			"g_kt",
+			"CreateMagorants",
+			"CreateMagList",
+			"MagList.er",
+			"MagList.e",
+			"PackAndCheckMagorants",
+			"MagList.resize",
+			"CreateMagorants",
+			"SaveMagorants",
+			"k",
+			"X_tu",
+			"WriteTUtoKinematic",
+			"mXtu",
+			"Load(",
+			"mXtu",
+			"mX_tu",
+			"out of memory",
+			"Init",
+			"VProgramCheck",
+			"max_ort_x",
+			"getMatrix",
+			".setParams(",
+			"max_ort_x"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"стар",
+			"ort_it_end",
+			"ort_it",
+			"tmp_mag_it",
+			"tmp_invalid_it",
+			"mag_it",
+			"average_it",
+			"invalid_it",
+			"length_it",
+			"new_ort_it_end",
+			"new_ort_it",
+			"tmp_new_mag_it_end",
+			"tmp_new_mag_it",
+			"tmp_new_invalid_it",
+			"new_mag_it",
+			"new_average_it",
+			"new_invalid_it",
+			"new_length_it",
+			"3",
+			"2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "trm-converter/main.cc",
+					"settings":
+					{
+						"buffer_size": 4329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3629,
+								3629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2233.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "trm-converter/data.h",
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "trm-converter/data.cc",
+					"settings":
+					{
+						"buffer_size": 3000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2503,
+								2503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true
+}
