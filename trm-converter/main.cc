@@ -1,5 +1,5 @@
-// IMM UB RAS (c) 2012
-// author : Aleksander A. Popov
+// Copyright (C) 2012, IMM UB RAS
+// Copyright (C) 2012, Aleksander A. Popov <x100@yandex.ru>
 // encoding : utf8
 // кодировка : utf8
 
@@ -118,15 +118,12 @@ void MyFrame::OnMouse(wxMouseEvent& WXUNUSED(event)) {
 }
 
 void MyFrame::OnAbout(wxCommandEvent& WXUNUSED(event)) {
-  /*wxMessageBox(_("Trm Converter v1.0.0\nIMM UB RAS \xA9 2012"),
-               _("About"),
-               wxOK | wxICON_INFORMATION,
-               this);*/
   wxAboutDialogInfo info;
   info.SetName(_("Trm Converter"));
-  info.SetVersion(_("1.0.0 Beta"));
-  info.SetCopyright(_T("\xA9 2012 IMM UB RAS \n")
-                    _T("\xA9 2012 Aleksander A. Popov <x100@yandex.ru>"));
+  info.SetVersion(_("1.0.0"));
+  info.SetCopyright(_T("Copyright \xA9 2012, IMM UB RAS \n")
+                    _T("Copyright \xA9 2012, ")
+                    _T("Aleksander A. Popov <x100@yandex.ru>"));
   info.SetDescription(_("\nThis program convert `trm` to `txt`."));
   wxAboutBox(info);
 }

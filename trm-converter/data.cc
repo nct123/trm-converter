@@ -1,5 +1,5 @@
-// IMM UB RAS (c) 2012
-// author : Aleksander A. Popov
+// Copyright (C) 2012, IMM UB RAS
+// Copyright (C) 2012, Aleksander A. Popov <x100@yandex.ru>
 // encoding : utf8
 // кодировка : utf8
 

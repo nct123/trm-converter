@@ -11,7 +11,7 @@
 			"file": "trm-converter/main.cc",
 			"settings":
 			{
-				"buffer_size": 4329,
+				"buffer_size": 4253,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +19,7 @@
 			"file": "trm-converter/data.h",
 			"settings":
 			{
-				"buffer_size": 578,
+				"buffer_size": 617,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "trm-converter/data.cc",
 			"settings":
 			{
-				"buffer_size": 3000,
+				"buffer_size": 3039,
 				"line_ending": "Unix"
 			}
 		}
@@ -56,6 +56,8 @@
 	},
 	"file_history":
 	[
+		"/C/_d/T/Projects_Novator/marshrut2/my_m2/m2/src/afpz2/geo-coordinates-converter.h",
+		"/C/Users/AAP/Desktop/printed/kinematic-provider.h",
 		"/C/sources/wxWidgets-2.8.12/samples/statbar/statbar.cpp",
 		"/C/_d/T/Projects_Kublanov/trm-converter/sources/trm-converter/trm-converter/data.cc",
 		"/C/_d/T/Projects_Novator/m3/bench-blt-all/bench-blt/CMakeLists.txt",
@@ -98,7 +100,6 @@
 		"/C/Users/AAP/Documents/example/my_example_project/src/kt/kt.cc",
 		"/D/T/Projects_Novator/marshrut2/my_m2/CMakeLists.txt",
 		"/C/Users/AAP/Desktop/printed/kinematic-options.h",
-		"/C/Users/AAP/Desktop/printed/kinematic-provider.h",
 		"/C/Users/AAP/Desktop/printed/orthodromies-provider-interface.h",
 		"/C/Users/AAP/Desktop/printed/curvatures-provider-interface.h",
 		"/C/Users/AAP/Desktop/printed/params-txt-provider-interface.h",
@@ -182,8 +183,7 @@
 		"/C/Program Files (x86)/Tkabber/Tkabber/examples/xrdb/badlop-dark.xrdb",
 		"/C/Users/AAP/Desktop/AStyle/bin/src/afpz2/calculating-kinematic-trajectory.h",
 		"/C/Users/AAP/Desktop/AStyle/bin/src/afpz2/calc_mag.cc",
-		"/C/Users/AAP/Desktop/AStyle/bin/src/saffm_SUSE_source/HProgram.cpp",
-		"/C/Users/AAP/Desktop/AStyle/bin/options.astylerc"
+		"/C/Users/AAP/Desktop/AStyle/bin/src/saffm_SUSE_source/HProgram.cpp"
 	],
 	"find":
 	{
@@ -376,7 +376,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -384,15 +384,15 @@
 					"file": "trm-converter/main.cc",
 					"settings":
 					{
-						"buffer_size": 4329,
+						"buffer_size": 4253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3629,
-								3629
+								2960,
+								2960
 							]
 						],
 						"settings":
@@ -402,7 +402,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2233.0,
+						"translation.y": 2001.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -412,15 +412,15 @@
 					"file": "trm-converter/data.h",
 					"settings":
 					{
-						"buffer_size": 578,
+						"buffer_size": 617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								485,
-								494
+								132,
+								132
 							]
 						],
 						"settings":
@@ -440,15 +440,15 @@
 					"file": "trm-converter/data.cc",
 					"settings":
 					{
-						"buffer_size": 3000,
+						"buffer_size": 3039,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2503,
-								2503
+								0,
+								0
 							]
 						],
 						"settings":
@@ -458,7 +458,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
