@@ -35,7 +35,8 @@ public:
   void OnAbout(wxCommandEvent& event);
   void OnLoad(wxCommandEvent& event);
   void OnSave(wxCommandEvent& event);
-  void OnMouse(wxMouseEvent& event);
+  void DoGiveHelp(const wxString& text, bool show);
+  void OnMenuClose(wxMenuEvent& event);
 
   DECLARE_EVENT_TABLE()
 
@@ -43,6 +44,7 @@ protected:
   Data* data_;
   wxMenu* menu_file_;
   wxString status_;
+  wxString last_help_shown_;
 };
 
 enum {
@@ -57,7 +59,6 @@ BEGIN_EVENT_TABLE(MyFrame, wxFrame)
   EVT_MENU(kIdAbout, MyFrame::OnAbout)
   EVT_MENU(kIdLoad, MyFrame::OnLoad)
   EVT_MENU(kIdSave, MyFrame::OnSave)
-  EVT_MOUSE_EVENTS(MyFrame::OnMouse)
 END_EVENT_TABLE()
 
 IMPLEMENT_APP(MyApp)
@@ -91,14 +92,15 @@ MyFrame::MyFrame(Data* data,
       data_(data),
       menu_file_(NULL) {
   menu_file_ = new wxMenu;
-  menu_file_->Append(kIdLoad, _("&Load trm..."));
-  menu_file_->Append(kIdSave, _("&Save txt..."));
+  menu_file_->UpdateUI(NULL);
+  menu_file_->Append(kIdLoad, _("&Load trm..."), _("Load trm..."));
+  menu_file_->Append(kIdSave, _("&Save txt..."), _("&Save txt..."));
   wxMenuItem* item = menu_file_->FindItem(kIdSave);
   item->Enable(false);
   menu_file_->AppendSeparator();
-  menu_file_->Append(kIdAbout, _("&About..."));
+  menu_file_->Append(kIdAbout, _("&About..."), _("About..."));
   menu_file_->AppendSeparator();
-  menu_file_->Append(kIdQuit, _("E&xit"));
+  menu_file_->Append(kIdQuit, _("E&xit"), _("Exit"));
 
   wxMenuBar* menu_bar = new wxMenuBar;
   menu_bar->Append(menu_file_, _("&File"));
@@ -113,8 +115,41 @@ void MyFrame::OnQuit(wxCommandEvent& WXUNUSED(event)) {
   Close(true);
 }
 
-void MyFrame::OnMouse(wxMouseEvent& WXUNUSED(event)) {
-  SetStatusText(status_);
+void MyFrame::OnMenuClose(wxMenuEvent& WXUNUSED(event))
+{
+    DoGiveHelp(wxEmptyString, false);
+}
+
+void MyFrame::DoGiveHelp(const wxString& text, bool show)
+{
+  if (m_statusBarPane < 0) return;
+  wxStatusBar* statbar = GetStatusBar();
+  if (! statbar) return;
+
+  wxString help;
+  if (show) {
+    if (m_oldStatusText.empty()) {
+      m_oldStatusText = statbar->GetStatusText(m_statusBarPane);
+      if (m_oldStatusText.empty()) {
+        // use special value to prevent us from doing this the next time
+        m_oldStatusText += _T('\0');
+      }
+    }
+    help = text;
+    last_help_shown_ = help;
+  } else { // hide the status bar text
+    // also clear the old status text but remember it too to restore it below
+    help.swap(m_oldStatusText);
+    if (statbar->GetStatusText(m_statusBarPane) != last_help_shown_) {
+      last_help_shown_.clear();
+      // if the text was changed with an explicit SetStatusText() call
+      // from the user code in the meanwhile, do not overwrite it with
+      // the old status bar contents -- this is almost certainly not what
+      // the user expects and would be very hard to avoid from user code
+      return;
+    }
+  }
+  statbar->SetStatusText(help, m_statusBarPane);
 }
 
 void MyFrame::OnAbout(wxCommandEvent& WXUNUSED(event)) {
